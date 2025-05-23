@@ -77,13 +77,13 @@ WSGI_APPLICATION = 'divyapriya.wsgi.application'
 
 DATABASES = {
 'default': {
-'ENGINE': 'django.db.backends.mysql',
-'NAME': 'moon',
-'USER': 'root', # your MySQL username
-'PASSWORD': 'divyas123#', # your MySQL password
+'ENGINE' : 'django.db.backends.mysql',
+'NAME'   : 'moon',
+'USER'   : 'root', 
+'PASSWORD': 'divyas123#', 
 'HOST': 'localhost',
 'PORT': '3307',
-}
+  }
 }
 
 
